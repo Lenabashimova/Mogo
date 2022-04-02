@@ -1,0 +1,25 @@
+.statistics{
+    background-color: #95E1D3;
+    margin: 100px 0 50px;
+    width: 100%;
+}
+.stat{
+    display: flex;
+    justify-content: space-between;
+}
+.stat__item{
+    flex: 1 1 0;
+    border-left: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.stat__num{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+.stat__text{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
