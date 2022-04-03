@@ -1,4 +1,4 @@
-@media (max-width:1020px), (orientation: landscape){
+@media (max-width:1020px){
     .header{
         width: 1020px;
     }
@@ -25,13 +25,14 @@
     .intro__title{
         font-size: 96px;
         width: 790px;
+        margin-top: -50px;
     }
     .intro__subtitle{
         font-size: 48px;
         line-height: 350px;
     }
     .intro__title::after{
-        width: 115.28px;
+        width: 170px;
         height: 4px;
         margin-bottom: 50px;
     }
@@ -45,7 +46,7 @@
     }
     .slider__item {
         width: 230px;
-        font-size: 14px;
+        font-size: 18px;
         border-top: 4px solid white;
     }
     .slider__item:first-child::before{
@@ -53,7 +54,7 @@
         top:-4px;
     }
     .bold{
-        font-size: 24px;
+        font-size: 36px;
     }
     .slider{
         justify-content: center;
@@ -72,7 +73,7 @@
         display: block;
         color: white;
         margin-top: -8px;
-        margin-left: -250px;
+        margin-left: -210px;
     }
     .navigation__menu:hover{
         color: #F4BF87;
@@ -87,10 +88,9 @@
     }
     .intro{
         width: 280px;
-        margin-left: 5px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-items: center;
     }
     .intro__subtitle{
         width: 288px;
@@ -114,9 +114,6 @@
         width: 200px;
         font-size: 18px;
         margin-left: 5px;
-    }
-    .slider{
-        margin-left: -30px;
     }
     .slider__item{
         width: 50px;

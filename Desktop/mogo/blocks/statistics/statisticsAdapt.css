@@ -2,6 +2,10 @@
     .statistics{
         width: 1020px;
     }
+    .stat{
+        display: flex;
+        align-content: center;
+    }
     .stat__item{
         padding: 0 70px;
     }
@@ -13,12 +17,10 @@
     }
  }
  @media (max-with:320px){
-     
-    .stat__item{ 
-         width: 320px;
-         display: flex;
-         flex-direction: column;
-         flex-wrap: wrap;
-         gap: 12px;
+    .statistics{
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
      }
  }

@@ -1,4 +1,6 @@
 .header{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 100%;
     top: 0;
@@ -14,12 +16,11 @@
 .menu{
     display: flex;
     margin-top: 40px;
-    max-width: 1770px;
     justify-content: space-between;
     align-items: center;
     }
 .logo{
-    margin: 0 0 0 200px;
+    margin: 0 0 0 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 34px;
 }
@@ -31,6 +32,9 @@
 .logo:active{
     color: #95E1D3;
     cursor: pointer;
+}
+.navigation{
+    margin-right: 30px;
 }
 .navigation__menu{
     display: none;
@@ -75,7 +79,7 @@
     font-size: 64px;
     font-weight: 100;
     text-align: center;
-    margin: 177px 0 -150px;
+    margin: 177px 0 -50px;
 }
 
 .intro__title{

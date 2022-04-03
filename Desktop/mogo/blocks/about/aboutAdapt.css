@@ -1,10 +1,15 @@
 @media (max-width:1020px){
     .about{
         width: 1020px;
-        margin-top: 1100px;
+        margin-top: 850px;
     }
     .about__item{
         width: 1020px;
+        flex-wrap: wrap;
+    }
+    .about__img{
+        width: 320px;
+        height: 320px;
     }
     .about__subtitle{
         font-size: 24px;
