@@ -10,6 +10,7 @@
     padding-bottom: 15px; 
     margin-bottom: 600px;
 }
+
 .menu{
     display: flex;
     margin-top: 40px;
@@ -28,17 +29,16 @@
     cursor: pointer;
 }
 .logo:active{
-    color: rgb(222, 68, 68);
-    text-shadow: 1px 1px 2px white;
+    color: #95E1D3;
     cursor: pointer;
 }
+.navigation__menu{
+    display: none;
+}
 .navigation__link{
-    margin-left: 30px;
+    margin-left: 25px;
     font-weight: 300;
     font-size: 15px;
-}
-.navigation__link:last-child{
-    margin-right: 200px;
 }
 .navigation__link:hover{
     color: #F4BF87;
@@ -46,8 +46,9 @@
     cursor: pointer;
 }
 .navigation__link:active{
-    color: red;
-    border-bottom: 1px solid red;
+    color: #95E1D3;
+    font-weight: 600;
+    border-bottom: 3px solid #95E1D3;
     cursor: pointer;
 }
 .textOrange{
@@ -63,6 +64,7 @@
     justify-content: center;
     color: white;    
 }
+
 .italic{
     font-family: 'Kaushan Script', cursive;
     color: black;
@@ -73,7 +75,7 @@
     font-size: 64px;
     font-weight: 100;
     text-align: center;
-    margin: 177px 0 -110px;
+    margin: 177px 0 -150px;
 }
 
 .intro__title{
@@ -96,8 +98,7 @@
     width: 200px;
     font-weight: 700;
     font-size: 24px;
-    margin: 0 auto 116px;
-    margin-top: -10px;
+    margin: -10px auto 116px;
     text-align: center;
     padding: 15px 30px;
 }
@@ -108,14 +109,14 @@
     cursor: pointer;
 }
 .intro__btn:active{
-    background-color: #F4BF87;
+    background-color: #95E1D3;
     color: white;
     border-color: white;
     cursor: pointer;
 }
 .slider{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .bold{
     font-weight: bold;

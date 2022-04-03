@@ -47,16 +47,32 @@
 .about__img img{
     transition: opacity .1s linear;
 }
+.about__icon{
+    opacity: 0;
+    position: absolute;
+    top: 450px;
+    left: 270px;
+    z-index: 2;
+    color: red;
+}
 .about__img_title{
     opacity: 0;
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 500px;
+    left: 280px;
     z-index: 2;
     text-align: center;
-    color: red;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     transition: opacity .2s linear;
 }
 .about__img:hover + .about__img_title{
     opacity: 1;
+}
+.about__img_title:last-child{
+    left: 1070px;
+}
+.about__img_title:nth-child(4){
+    left: 670px;
 }

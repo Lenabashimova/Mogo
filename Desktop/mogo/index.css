@@ -2,6 +2,10 @@
 @import url("./blocks/about/about.css");
 @import url("./blocks/statistics/statistics.css");
 @import url("./blocks/service/service.css");
+@import url("./blocks/about/aboutAdapt.css");
+@import url("./blocks/header/headerAdapt.css");
+@import url("./blocks/service/serviceAdapt.css");
+@import url("./blocks/statistics/statisticsAdapt.css");
 
 
 
@@ -9,6 +13,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+
 }
 a{
     text-decoration: none;
