@@ -27,6 +27,11 @@
     text-shadow: 1px 1px 2px white;
     cursor: pointer;
 }
+.logo:focus{
+    border: 3px solid #f38209;
+    color: #F38281;
+    background-color: white;
+}
 .logo:active{
     color: rgb(222, 68, 68);
     text-shadow: 1px 1px 2px white;
@@ -44,6 +49,11 @@
     color: #F4BF87;
     border-bottom: 1px solid #F4BF87;
     cursor: pointer;
+}
+.navigation__link:focus{
+    border: 1px solid #f38209;
+    color: #F38281;
+    background-color: white;
 }
 .navigation__link:active{
     color: red;
@@ -113,6 +123,11 @@
     border-color: white;
     cursor: pointer;
 }
+.intro__btn:focus{
+    border: 3px solid #f38209;
+    color: #F38281;
+    background-color: white;
+}
 .slider{
     display: flex;
     justify-content: space-around;
@@ -157,4 +172,9 @@
     color: white;
     background-color: #F38281;
     border-top: 3px solid white;
+}
+.slider__item:focus{
+    border: 3px solid #f38209;
+    color: #F38281;
+    background-color: white;
 }
