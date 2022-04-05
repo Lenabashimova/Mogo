@@ -6,7 +6,7 @@
 .service__title{
     font-size: 36px;
     font-weight: 900;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 .service__title::after{
     content: "";

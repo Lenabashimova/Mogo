@@ -1,0 +1,12 @@
+.partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.partners__icon{
+    margin-top: 10px;
+}
+.partners__icon:last-child{
+    margin-top: 30px;
+}
