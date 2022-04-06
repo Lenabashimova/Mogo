@@ -1,6 +1,6 @@
 @media (max-width:1020px){
     .header{
-        width: 1020px;
+        width: 100%;
     }
     .navigation{
         position: absolute;
