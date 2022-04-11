@@ -1,0 +1,17 @@
+.blog{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient( 90deg, rgba(255, 255, 255, 0.9) 55%, rgba(255, 255, 255, 0.9) 55%), url(./back.png) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.blog__svg{
+    margin-top: 42px;
+}
+.blog__title{
+    color: rgba(243, 130, 129, 1);
+    margin-top: 15px;
+}

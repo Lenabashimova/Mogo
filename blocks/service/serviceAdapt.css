@@ -1,0 +1,58 @@
+@media (max-width: 1020px){
+    .service{
+        width: 1020px;
+    }
+    .service__list{
+        flex-wrap: wrap;
+        max-width: 1020px;
+        gap: 25px;
+    }
+    .service__listItem{
+        width: 314px;
+        height: 117px;
+    }
+    .service__itemTitle{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: -10px;
+    }
+    .service__itemText{
+        font-size:14px;
+        width: 229px;
+        margin-left: -10px;
+    }
+    .service__listSvg{
+        width: 45px;
+        height: 45px;
+        top: 7px;
+    }
+}
+@media (max-width:320px){
+    .service{
+        width: 288px;
+        margin-bottom: 58px;
+    }
+    .service__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .service__listItem{
+        margin: 0 auto;
+    }
+    .service__itemTitle{
+        font-size: 18px;
+        margin-bottom: -15px;
+    }
+    .service__itemText{
+        font-size: 14px;
+    }
+    .service__listSvg{
+        width: 42px;
+        height: 42px;
+        
+    }
+}

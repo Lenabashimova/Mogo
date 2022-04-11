@@ -1,0 +1,31 @@
+.stat{
+    background-color: #95E1D3;
+    margin: 108px auto 42px;
+    width: 100%;
+}
+.stat__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+.stat__item{
+    flex: 1 1 0;
+    border-left: 1px solid white;
+    line-height: 20px;
+    padding-bottom: 39px;
+    text-align: center;
+    color: white;
+}
+.stat__item:last-child{
+    border-right: 1px solid white;
+}
+.stat__num{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+.stat__text{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}

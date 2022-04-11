@@ -1,0 +1,58 @@
+.clients{
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient( 90deg, rgba(255, 255, 255, 0.9) 55%, rgba(255, 255, 255, 0.9) 55%), url(./back.png) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.clients__intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients__list{
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+    flex-wrap: wrap;
+}
+.clients__item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 530px;
+}
+.clients__post::after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    background-color: rgba(243, 130, 129, 1);
+    display: block;
+    margin: 32px 0;
+}
+.clients__name{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: -15px;
+}
+.clients__post{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.clients__text{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.clients__about{
+    margin-top: 84px;
+}

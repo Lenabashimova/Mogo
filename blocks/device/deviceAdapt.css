@@ -1,0 +1,45 @@
+@media (max-width:1020px){
+    .device{
+        width: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .device__img_tablet{
+        max-width: 793px;
+    }
+    .device__img_back{
+        max-width: 446px;
+        left: 169px;
+        top: 5px;
+    }
+    .device__img_phone{
+        max-width: 135px;
+        right: 120px;
+        bottom: -57px;
+    }
+}
+@media (max-width:320px) {
+    .device{
+        max-width: 320px;
+        max-height: 514px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .device__img_tablet{
+        max-width: 450px;
+    }
+    .device__img_back{
+        max-width: 265px;
+        left: 96px;
+        top: 5px;
+    }
+    .device__img_phone{
+        max-width: 76px;
+        right: 113px;
+        bottom: -50px;
+    }
+}

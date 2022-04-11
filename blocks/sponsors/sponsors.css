@@ -1,0 +1,8 @@
+.sponsors{
+    background-color: rgba(248, 248, 248, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 114px;
+    max-height: 211px;
+}

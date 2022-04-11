@@ -1,0 +1,63 @@
+@media (max-width:1020px) {
+    .accordion{
+        max-width: 1020px;
+        margin: 58px 16px;
+    }
+    .accordion__text{
+        font-size: 14px;
+    }
+    .accordion__img{
+        max-width: 486px;
+    }
+    .accordion__list{
+        max-width: 486px;
+        gap: 18px;
+    }
+    .accordion__item_title{
+        font-size: 18px;
+        gap: 34px;
+        height: 78px;
+    }
+    .accordion__item_text{
+        font-size: 14px;
+        max-width: 392px;
+    }
+    .accordion__itemSvg{
+        width: 30px;
+    }
+}
+@media (max-width:320px) {
+    .accordion{
+        max-width: 320px;
+        margin: 22px 16px;
+    }
+    .accordion__intro{
+        margin-top: -25px;
+    }
+    .accordion__text{
+        font-size: 14px;
+        margin-bottom: -50px;
+    }
+    .accordion__itemsContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+    }
+    .accordion__img{
+    display: none;
+    }
+    .accordion__imgWide{
+        display: block;
+        max-width: 288px;
+        max-height: 142px;
+    }
+    .accordion__item_title{
+        font-size: 14px;
+        gap: 36px;
+        height: 78px;
+    }
+    .accordion__item_text{
+        font-size: 13px;
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,42 @@
+@import url("./blocks/header/header.css");
+@import url("./blocks/about/about.css");
+@import url("./blocks/statistics/statistics.css");
+@import url("./blocks/service/service.css");
+@import url("./blocks/about/aboutAdapt.css");
+@import url("./blocks/header/headerAdapt.css");
+@import url("./blocks/service/serviceAdapt.css");
+@import url("./blocks/statistics/statisticsAdapt.css");
+@import url("./blocks/device/device.css");
+@import url("./blocks/device/deviceAdapt.css");
+@import url("./blocks/accordion/accordion.css");
+@import url("./blocks/accordion/accordionAdapt.css");
+@import url("./blocks/reviews/reviews.css");
+@import url("./blocks/reviews/reviewsAdapt.css");
+@import url("./blocks/team/team.css");
+@import url("./blocks/team/teamAdapt.css");
+@import url("./blocks/sponsors/sponsors.css");
+@import url("./blocks/sponsors/sponsorsAdapt.css");
+@import url("./blocks/clients/clients.css");
+@import url("./blocks/clients/clientsAdapt.css");
+@import url("./blocks/stories/stories.css");
+@import url("./blocks/stories/storiesAdapt.css");
+@import url("./blocks/blog/blog.css");
+@import url("./blocks/blog/blogAdapt.css");
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/footer/footerAdapt.css");
+
+
+
+
+.page{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 0 0;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}

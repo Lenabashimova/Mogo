@@ -1,0 +1,157 @@
+@media (max-width:1020px) {
+    .footer{
+        max-width: 1020px;
+        align-items: baseline;
+        padding: 50px 16px;
+    }
+    .footer__text{
+        margin-left: 16px;
+        max-width: 317px;
+    }
+    .footer__text_logo{
+        font-size: 30px;
+    }
+    .footer__text_main{
+        font-size: 14px;
+    }
+    .footer__text_followers{
+        font-size: 14px;
+    }
+    .footer_bold{
+        font-size: 24px;
+    }
+    .footer_sm{
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 320px;
+    }
+    .footer__sm_fllwBtn{
+        margin-right: 53px;
+        font-size: 12px;
+    }
+    .footer__iconList{
+        max-width: 233px;
+        gap: 5px;
+    }
+    .footer__sm_icon{
+        width: 16px;
+    }
+    .footer__email{
+        max-width: 150px;
+    }
+    .footer__email::-webkit-input-placeholder{
+        font-size: 14px;
+    }
+    .footer__btn{
+        font-size: 14px;
+        max-width: 115px;
+        height: 39px;
+    }
+    .blogs{
+        max-width: 402px;
+        column-gap: 20px;
+        row-gap: 14px;
+    }
+    .blogs__title{
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    .blogs__text{
+        margin-left: -50px;
+        font-size: 14px;
+        max-width: 267px;
+    }
+    .blogs__img{
+        max-width: 115px;
+    }
+    .blogs__date{
+        font-size: 12px;
+    }
+    .footer__instagram{
+        line-height: 0px;
+        margin-left: 20px;
+        grid-template-columns: repeat(3, 78px);
+        grid-template-rows: repeat(4, 78px);
+        max-width: 233px;
+    }
+    .footer__instargram_title{
+        font-size: 18px;
+    }
+    .footer__instImg{
+        max-width: 78px;
+        max-height: 76px;
+    }
+    .footer__instagram_btn{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:320px) {
+    .footer{
+        padding: 52px 15px;
+        max-width: 320px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__text_main{
+        margin: 0 15px;
+        max-width: 288px;
+    }
+    .footer__text_followers{
+        margin: 10px auto;
+        max-width: 288px;
+    }
+    .footer_bold{
+        display: inline-block;
+    }
+    .footer_sm{
+        margin-top: 10px;
+    }
+    .footer__email{
+        max-width: 288px;
+        margin: 24px 0;
+    }
+    .footer__btn{
+        max-width: 288px;
+        padding: 0 114px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .blogs{
+        align-items: center;
+        justify-content: center;
+        max-width: 320px;
+        margin: 0 15px;
+        column-gap: 14px;
+        text-align: start;
+        grid-template-columns: 83px 192px;
+    }
+    .blogs__img{
+        max-width: 83px;
+    }
+    .blogs__title{
+        font-size: 18px;
+        margin: 25px auto;
+    }
+    .blogs__text{
+        margin-left: -5px;
+        font-size: 14px;
+        max-width: 190px;
+    }
+    .blogs__date{
+        font-size: 12px;
+    }
+    .footer__instagram{
+        margin: 0 auto;
+    }
+    .footer__instargram_title{
+        margin-top: 50px;
+    }
+    .footer__instagram_btn{
+        margin: 15px -18px;
+    }
+}

@@ -1,0 +1,14 @@
+@media (max-width:320px) {
+    .sponsors{
+        max-width: 320px;
+        max-height: 500px;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .sponsors__icon{
+        width: 86px;
+    }
+    .icon4{
+        width: 10px;
+    }
+}
