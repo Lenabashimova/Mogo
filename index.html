@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="./index.css"><link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:wght@300;600;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+<!-- в папке blocks должен быть блок page -->
 <body class="page">
         <div class="header">
             <div class="header__items">
+                <!-- в папке blocks должен быть блок menu или это должен быть элемент блока header: header__menu -->
                 <div class="menu">
+                    <!-- блоки logo и navigation также отсутствуют в папке blocks -->
                     <a class="logo" href="#">MoGo</a>
                      <nav class="navigation">
                          <a class="navigation__menu" href="#"><svg style="width:40px;height:18px" viewBox="0 0 24 24">
                          <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
                         </svg></a>
-                         <a class="navigation__link" href="#"><span class="textOrange">ABOUT</span></a>
+                         <a class="navigation__link" href="#">
+                            <!-- оранжевый цвет лучше сделать через модификатор navigation__link_textOrange или элемент page__textOrange -->
+                            <!-- дополнительный тэг span тут лишний, лучше использовать несколько классов для тега a -->
+                            <span class="textOrange">ABOUT</span></a>
                             <a class="navigation__link" href="#">SERVICE</a>
                             <a class="navigation__link" href="#">WORK</a>
                             <a class="navigation__link" href="#">BLOG</a>
@@ -29,6 +35,7 @@
                             </svg></a>
                     </nav>
                 </div><!--menu-->
+                <!-- блоки intro и slider также отсутствуют в папке blocks -->
                 <div class="intro">
                     <h2 class="italic intro__subtitle">Creative Template</h2>
                     <h1 class="intro__title">WELCOME TO MOGO</h1>
@@ -43,12 +50,15 @@
             </div><!--header__items-->
         </div><!--header-->
         <div class="about">
+            <!-- курсив лучше сделать через модификатор about__subtitle_italic или элемент page__textItalic -->
+            <!-- italic - слишком специфичный класс и фактически дублирует css свойство font-style: italic; такие специфичные свойства лучше описывать непосредственно в css стилях элемента -->
             <h4 class="italic about__subtitle">What we do</h4>
             <h3 class="page__title">STORY ABOUT US</h3>
             <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</p>
             <div class="about__list">
                 <div class="about__item">
                     <picture>
+                        <!-- лучше использовать абсолютные пути: /blocks/about/1.png -->
                         <img class="about__img" src="./blocks/about/1.png" alt="1">
                         <source srcset="./blocks/about/1.png?as=avif&width=320" type="image/avif" media="(max-width: 320px)">
                         <source srcset="./blocks/about/1.png?as=webp&width=320" type="image/webp" media="(max-width: 320px)"> 
